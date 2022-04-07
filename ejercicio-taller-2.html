@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos | Ejercicio taller 2</title>
+</head>
+<body>
+    <header>
+        <h1>Ejercicio taller 2</h1>
+        <p>
+            Nuestros clientes están muy felices de poder calcular el precio final de sus productos después del descuento, pero la tienda tiene una nueva solicitud para nosotros: implementar descuentos con cupones. 
+        </p>
+    </header>
+    <section>
+        <h2>Calcula el precio a pagar en tus productos con cupon de descuento</h2>
+        <form action="">
+            <label for="InputPrice">Escribe el precio de tu producto: </label>
+            <input id="InputPrice" type="number">
+
+            <label for="InputCoupon">Escribe el cupon de descuento: </label>
+            <input id="InputCoupon" type="text">
+
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+                Calcular el precio con descuento
+            </button>
+
+            <p id="ResultPrice"></p>
+        </form>
+    </section>
+    <script src="./ejercicio-taller-2.js"></script>
+</body>
+</html>
